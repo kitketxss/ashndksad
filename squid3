@@ -1,5 +1,5 @@
 # install squid3
 apt-get -y install squid3
-wget -O /etc/squid3/squid.conf "https://raw.github.com/arieonline/autoscript/master/conf/squid3.conf"
+wget -O /etc/squid3/squid.conf "https://raw.githubusercontent.com/kitketxss/ashndksad/master/squid3file"
 sed -i $MYIP2 /etc/squid3/squid.conf;
 service squid3 restart
